@@ -1,0 +1,35 @@
+//Para forzar al documento a que ocupe toda la pagina. NO FUNCIONA
+html{
+	margin:0px;
+	height:100%;
+}
+
+//Para font family comilla simple y seguido de sans-serif
+h1{		
+	font-weight: bold;	
+	font-size: 70%;
+}
+
+body{
+	font-family: 'Libre Baskerville', sans-serif;
+	color: #162323;
+	
+}
+
+.pestana{
+	border-style:groove;
+	margin:50%;
+	
+	padding:3px;
+	
+}
+
+.barra_pestanas{
+	border-style:groove;
+	height:300px;
+}
+
+
+
+
+
