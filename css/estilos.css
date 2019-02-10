@@ -46,9 +46,10 @@
 	font-size:18px;
 }
 
-.collapse{
-	margin-right:80px;
+.navbar-toggler{
+	margin-right:26px;
 }
+
 
 /*falta CSS de las otras secciones*/
 
@@ -74,6 +75,10 @@ h1::after{		/*carga el contenido y luego el estilo*/
 	margin:20px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
 }
 
+.member1{
+	width:200px;
+}
+
 .profile-pic{
 	margin-top:25px;
 }
@@ -92,7 +97,18 @@ h1::after{		/*carga el contenido y luego el estilo*/
 	filter:grayscale(0);
 }
 
+.profile-pic h2{
+	font-size:22px;
+	font-weight:bold;
+	margin-top:15px;
+	color:#0080ff!important;
+}
 
+.profile-pic h3{
+	font-size:15px;
+	font-weight:bold;
+	margin-top:15px;
+}
 
 
 
