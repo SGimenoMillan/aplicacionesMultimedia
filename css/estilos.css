@@ -110,6 +110,13 @@ h1::after{		/*carga el contenido y luego el estilo*/
 	margin-top:15px;
 }
 
+/*-------FOOTER-------*/
+#footer{
+	background:#333;
+	color:white;
+	padding:12px;
+}
+
 
 
 
