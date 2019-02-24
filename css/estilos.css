@@ -52,6 +52,168 @@
 
 
 /*falta CSS de las otras secciones*/
+/*------´--- gameplay ---------*/
+
+#video{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#vid{
+	display:block;
+	margin:0 auto;
+	
+}
+
+#video h1{
+	text-align:center;
+	color: #555;
+	padding-bottom:10px;	
+}
+
+#video h1::after{		/*carga el contenido y luego el estilo*/
+	content:'';
+	background: #0080ff;
+	display:block;
+	height:3px;
+	width:200px;
+	margin:20px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
+}
+
+#video-container{
+	width:1280px;
+	height:720px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);	
+	overflow:hidden;
+	z-index:9;
+}
+
+#controls{
+	height:50px;
+	width:1280px;
+	padding:15px;
+	position:absolute;
+	top:104%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color:#181818;
+	background-color: rgba(24,24,24,0.7);
+	z-index:3;
+	transition:all .5s;
+}
+
+#video:hover #controls{
+	top:98%;
+}
+
+table{
+	width:1280px;
+	margin-left:30px;
+}
+
+
+#seek-bar{
+	width:100%;
+	height:10px;
+	background-color:gray;
+	display:flex;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#fill{
+	height:10px;
+	WIDTH:10px;
+	background-color: #0080ff;
+}
+
+#currentTime{
+	font-family:monospace;
+	font-size:18px;
+	color: #0080ff;
+}
+
+#playButton{
+	cursor:pointer;
+}
+
+input[type=range]{
+	-webkit-appearance:none !important;
+	background-color:#666;
+	height:5px;
+	border-radius:4px;
+	outline:none;
+}
+
+input[type=range]::-webkit-slider-thumb{
+	-webkit-appearance:none !important;
+	background-color:#0080ff;
+	height:15px;
+	width:15px;
+	border-radius:15px;
+	cursor:pointer;
+}
+
+
+
+#filler{
+	width:auto;
+	height:65px;
+	background-color:#fff;
+	z-index:5;
+	display:block;
+	position:relative;
+	
+}
+
+/*----------  QUE ES JUEGO --------*/
+#queesjuego{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+	background-size:cover;
+	background-position:center;
+	color:#efefef !important;
+	background-attachment:fixed;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#queesjuego h1{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:10px;
+}
+
+#queesjuego h1::after{
+	content:'';
+	background:#efefef;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px;
+}
+
+.queesjuego{
+	margin-top:5px;
+}
+
+.icon{
+	font-size:35px;
+	margin:10px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+}
+
+#queesjuego p{
+	font-size:15px;
+	margin-top: 20px;
+	color:#ccc;
+}
+
 
 /*----------  EQUIPO  --------*/
 #equipo{
@@ -60,13 +222,13 @@
 	color: #555;
 }
 
-h1{
+#equipo h1{
 	text-align:center;
 	color: #555;
 	padding-bottom:10px;	
 }
 
-h1::after{		/*carga el contenido y luego el estilo*/
+#equipo h1::after{		/*carga el contenido y luego el estilo*/
 	content:'';
 	background: #0080ff;
 	display:block;
@@ -109,6 +271,50 @@ h1::after{		/*carga el contenido y luego el estilo*/
 	font-weight:bold;
 	margin-top:15px;
 }
+
+/*-------FORMULARIO-------*/
+#contacto{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom:40px;
+	color: #777;	
+}
+
+.formulario{
+	padding:15px;	
+}
+
+.form-control{
+	border-radius:0 !important;
+	border:none !important;
+}
+
+#contacto h1{
+	text-align:center;
+	color: #555;
+	padding-bottom:10px;	
+}
+
+#contacto h1::after{		/*carga el contenido y luego el estilo*/
+	content:'';
+	background: #0080ff;
+	display:block;
+	height:3px;
+	width:200px;
+	margin:20px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
+}
+
+.mensaje{
+	background:#fff;
+	padding:10px;
+	margin:15px;
+	text-align:center;
+}
+.contact-info{
+	margin-top:10%;
+}
+
+
 
 /*-------FOOTER-------*/
 #footer{
