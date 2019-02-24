@@ -6,6 +6,9 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link rel= "stylesheet" type= "text/css" href= "css/estilos.css" />	
 		
+		<!-- Esta línea añade iconos de Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		
 		<!-- Usaremos bootstrap para hacer el diseño responsive-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -37,30 +40,88 @@
 				  <li class="nav-item">
 					<a class="nav-link" href="#">PÁGINA PRINCIPAL </a>
 				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">¿QUÉ ES JUEGO?</a>
-				  </li>				  
-				  <li class="nav-item">
+				   <li class="nav-item">
 					<a class="nav-link" href="#">GAMEPLAY</a>
 				  </li>
 				  <li class="nav-item">
+					<a class="nav-link" href="#">¿QUÉ ES JUEGO?</a>
+				  </li>				 
+				  <li class="nav-item">
 					<a class="nav-link" href="#equipo">EQUIPO</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">CONTACTO</a>
 				  </li>
 				  
 				</ul>				
 			  </div>
 			</nav>
 		</section>
-		
 		<!-- FALTAN MAS SECCIONES -->
     
+		<!--- PANTALLA JUEGO --->
+		<section id="juego">
+			
+		</section>
+		
+		<!-- GAMEPLAY --->
+		<section id="video">
+			<div id="video-container text-center">
+				<h1>Gameplay</h1>
+				<div id="gameplay-video">
+					<video id="vid" src="assets/gameplay.mp4" controls></video>
+					
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<!-- Que es juego -->
+		<section id="queesjuego">
+			<div class="container">
+				<h1>¿Cómo se juega?</h1>
+					<div class="row queesjuego">
+					
+						<!-- Columna 1 -->
+						<div class="col-md-4 text-center">
+							<div class="icon">
+								<i class="fas fa-gamepad"></i>
+							</div>
+							<h3>Regístrate</h3>
+							<p> JLKADFJAPDFJ QKEFJPADSOFH QEUIFAUJDFKLAJ EPFHADKFJA PEROUYIDAJFA FQPYEFKJADKFJA </p>
+						</div>
+						
+						<!-- Columna 1 -->
+						<div class="col-md-4 text-center">
+							<div class="icon">
+								<i class="fas fa-gamepad"></i>
+							</div>
+							<h3>Avanza matando</h3>
+							<p> JLKADFJAPDFJ QKEFJPADSOFH QEUIFAUJDFKLAJ EPFHADKFJA PEROUYIDAJFA FQPYEFKJADKFJA </p>
+						</div>
+						
+						<!-- Columna 1 -->
+						<div class="col-md-4 text-center">
+							<div class="icon">
+								<i class="fas fa-gamepad"></i>
+							</div>
+							<h3>Epic Victory Royale</h3>
+							<p> JLKADFJAPDFJ QKEFJPADSOFH QEUIFAUJDFKLAJ EPFHADKFJA PEROUYIDAJFA FQPYEFKJADKFJA </p>
+						</div>
+					</div>
+			</div>
+		</section>
+		
+		
+		<!-- EQUIPO -->
 		<section id="equipo">
 			<div class="container">
-				<h1>EQUIPO</h1>
+				<h1>Equipo</h1>
 				<div class="row">
 					<!-- MIEMBRO 1 -->
 					<!-- USAR COL-MD-4 SI SOMOS 3 O COL-MD-3 SI SOMOS 4-->
-					<div class="col-md-4 profile-pic text-center">
+					<div class="col-md-3 profile-pic text-center">
 						<div class="img-box">
 						<img src="assets/member1.jpg" class="img-responsive member1">							
 						</div>
@@ -70,21 +131,31 @@
 					</div>
 					
 					<!-- MIEMBRO 2 -->
-					<div class="col-md-4 profile-pic text-center">
+					<div class="col-md-3 profile-pic text-center">
 						<div class="img-box">
 						<img src="assets/member1.jpg" class="img-responsive member1">							
 						</div>
-							<h2> Sergio Gimeno </h2>
+							<h2> Carlos Rodríguez </h2>
 							<h3> Aquí manda su polla </h3>
 							<p> Se ha encargado de comerse los mocos </p>
 					</div>
 					
 					<!-- MIEMBRO 3 -->
-					<div class="col-md-4 profile-pic text-center">
+					<div class="col-md-3 profile-pic text-center">
 						<div class="img-box">
 						<img src="assets/member1.jpg" class="img-responsive member1">							
 						</div>
-							<h2> Sergio Gimeno </h2>
+							<h2> Eloy Martín </h2>
+							<h3> Aquí manda su polla </h3>
+							<p> Se ha encargado de comerse los mocos </p>
+					</div>
+					
+					<!-- MIEMBRO 4 -->
+					<div class="col-md-3 profile-pic text-center">
+						<div class="img-box">
+						<img src="assets/member1.jpg" class="img-responsive member1">							
+						</div>
+							<h2> Jorge Cobos </h2>
 							<h3> Aquí manda su polla </h3>
 							<p> Se ha encargado de comerse los mocos </p>
 					</div>
@@ -92,7 +163,44 @@
 			</div>
 		</section>
 		
-		
+		<!-- CONTACTO -->
+		<section id="contacto">
+			<div class="container">
+				<h1>Contacto</h1>
+				<div class="row">
+				
+					<div class="col-md-6 contact-info">
+						<div class="mensaje">
+							<b>Cuéntanos que te ha parecido el juego</b>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<form class="formulario">
+						<!--- Clases propia de BOOTSTRAP -->
+							<div class="form-group"> 
+								<input type="text" class="form-control" placeholder="Nombre">
+							</div>
+							<div class="form-group"> 
+								<input type="text" class="form-control" placeholder="Apellidos">
+							</div>
+							<div class="form-group"> 
+								<input type="email" class="form-control" placeholder="E-mail">
+							</div>
+							<div class="form-group"> 
+								<input type="number" class="form-control" placeholder="Teléfono de Contacto">
+							</div>
+							<div class="form-group"> 
+								<textarea class="form-control" placeholder="Mensaje"></textarea>							
+							</div>
+							
+							<button id="enviar" type="submit" class="btn btn-primary">Enviar mensaje </button>
+						</form>
+					</div>
+					
+					
+				</div>
+			</div>
+		</section>
 		
 		<!------- FOOTER ------->
 		<section id="footer">
