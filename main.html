@@ -59,11 +59,12 @@
 			  </div>
 			</nav>
 		</section>
-		<!-- FALTAN MAS SECCIONES -->
     
 		<!--- PANTALLA JUEGO --->
 		<section id="juego">
-			
+			<div class="container">
+				<h1>Título del juego </h1>
+			</div>
 		</section>
 		
 		<!-- GAMEPLAY --->
@@ -78,11 +79,11 @@
 						</div>
 							<table border="0">
 								<tr>
-									<td width="42%">
+									<td width="44%">
 										<div id="currentTime">00:00 / 00:00</div>
 									</td>
 									
-									<td id="iconoPlay" width="38%">
+									<td id="iconoPlay" width="34%">
 										<img src="assets/Play.png" onclick="play()" id="playButton" value="Click"/>
 									</td>
 									
@@ -90,8 +91,11 @@
 										<img src="assets/Speaker.png" id="speaker" />
 									</td>
 									
-									<td>
+									<td width="140px">
 										<input type="range" id="volume" min="0" max="1" value="0.2" step="0.05" onchange="cambiarVolumen()"/>
+									</td>									
+									<td margin-left="5px">
+										<img src="assets/fullscreen.png" onclick="getFullscreen()" id="fullscreen" width="37px" value="Click" />
 									</td>
 								</tr>
 							</table>

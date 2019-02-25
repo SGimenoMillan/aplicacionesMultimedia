@@ -2,6 +2,7 @@ var video = document.getElementById("vid");
 var fillBar = document.getElementById("fill");
 var currentTime = document.getElementById("currentTime");
 var volumeSlider = document.getElementById("volume");
+var fullscreen= document.getElementById("fullscreen");
 
 var progress= document.getElementById("seek-bar");
 var fill= document.getElementById("fill");
@@ -15,6 +16,18 @@ function play(){
 	}else{
 		video.pause();
 		$("#playButton").attr("src","assets/Play.png");
+	}
+}
+
+function getFullscreen(){
+	if(video.requestFullScreen){
+		video.requestFullScreen();
+	}else if (video.mozRequestFullScreen) {
+		video.mozRequestFullScreen();
+	}else if (video.webkitRequestFullscreen) {
+		video.webkitRequestFullscreen();
+	}else if (video.msRequestFullscreen) { 
+		video.msRequestFullscreen();
 	}
 }
 
