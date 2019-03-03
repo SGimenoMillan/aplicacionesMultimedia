@@ -5,7 +5,7 @@
 		<!-- USAR ESTO PARA TILDES Y Ñ -->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link rel= "stylesheet" type= "text/css" href= "css/estilos.css" />	
-		
+		<link rel= "stylesheet" type= "text/css" href= "css/tetris.css" />
 
     
 		<!-- Esta línea añade iconos de Font Awesome -->
@@ -32,7 +32,7 @@
 
 			<nav class="navbar navbar-expand-lg navbar-light">			
 			<!-- AQUÍ PODRÍAMOS PONER UN LOGO O EL NOMBRE DEL JUEGO DIRECTAMENTE -->
-			  <a class="navbar-brand" href="#"><img src="assets/logo_prueba.png"></a>
+			  <a class="navbar-brand" href="#"><img src="assets/tetris-wide.png"></a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
@@ -68,7 +68,10 @@
 		<!--- PANTALLA JUEGO --->
 		<section id="juego">
 			<div class="container">
-				<h1>Título del juego </h1>
+					<div id="canvas">
+						<canvas id="tetrisCanvas" width="380" height="760" style="border: 3px solid #0080ff;">
+						</canvas>
+					</div>				
 			</div>
 		</section>
 		
@@ -252,4 +255,5 @@
 	
 	</body>
 	<script type="text/javascript" src="javascript/video.js"></script>
+	<script type="text/javascript" src="javascript/tetris.js"></script>
 </html>

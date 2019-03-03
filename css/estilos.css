@@ -10,10 +10,12 @@
 	z-index:10;
 	
 }
-
+.navbar-brand{
+	width:300px;
+	margin-left:200px;
+}
 .navbar-brand img{
-	width:100px;
-	padding-left:50px;
+	width:150px;
 }
 
 .navbar {
@@ -44,7 +46,7 @@
 .nav-link{
 	color:#fff!important;
 	font-weight:500;
-	font-size:18px;
+	font-size:16px;
 }
 
 .navbar-toggler{
@@ -65,14 +67,14 @@
 	background-position:center;
 	color:#efefef !important;
 	background-attachment:fixed;
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-top:25px;
+	padding-bottom:50px;
 }
 
 #juego h1{
 	text-align:center;
 	color:#efefef !important;
-	padding-bottom:10px;
+	padding-bottom:5px;
 }
 
 #juego h1::after{
@@ -81,15 +83,15 @@
 	display:block;
 	height:3px;
 	width:170px;
-	margin:20px auto 5px;
+	margin:10px auto 5px;
 }
 
 
 /*------´--- GAMEPLAY ---------*/
 
 #video{
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-top:25px;
+	padding-bottom:50px;
 }
 
 #vid{
@@ -101,7 +103,7 @@
 #video h1{
 	text-align:center;
 	color: #555;
-	padding-bottom:10px;	
+	padding-bottom:5px;	
 }
 
 #video h1::after{		/*carga el contenido y luego el estilo*/
@@ -110,7 +112,7 @@
 	display:block;
 	height:3px;
 	width:200px;
-	margin:20px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
+	margin:10px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
 }
 
 #video-container{
@@ -217,14 +219,14 @@ input[type=range]::-webkit-slider-thumb{
 	background-position:center;
 	color:#efefef !important;
 	background-attachment:fixed;
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-top:25px;
+	padding-bottom:50px;
 }
 
 #queesjuego h1{
 	text-align:center;
 	color:#efefef !important;
-	padding-bottom:10px;
+	padding-bottom:5px;
 }
 
 #queesjuego h1::after{
@@ -233,7 +235,7 @@ input[type=range]::-webkit-slider-thumb{
 	display:block;
 	height:3px;
 	width:170px;
-	margin:20px auto 5px;
+	margin:10px auto 5px;
 }
 
 .queesjuego{
@@ -257,7 +259,7 @@ input[type=range]::-webkit-slider-thumb{
 
 /*----------  EQUIPO  --------*/
 #equipo{
-	padding-top:50px;
+	padding-top:25px;
 	padding-bottom:50px;
 	color: #555;
 }
@@ -265,7 +267,7 @@ input[type=range]::-webkit-slider-thumb{
 #equipo h1{
 	text-align:center;
 	color: #555;
-	padding-bottom:10px;	
+	padding-bottom:5px;	
 }
 
 #equipo h1::after{		/*carga el contenido y luego el estilo*/
@@ -274,7 +276,7 @@ input[type=range]::-webkit-slider-thumb{
 	display:block;
 	height:3px;
 	width:200px;
-	margin:20px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
+	margin:10px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
 }
 
 .member1{
@@ -315,8 +317,8 @@ input[type=range]::-webkit-slider-thumb{
 /*-------FORMULARIO-------*/
 #contacto{
 	background: #efefef;
-	padding-top: 40px;
-	padding-bottom:40px;
+	padding-top: 25px;
+	padding-bottom:50px;
 	color: #777;	
 }
 
@@ -332,7 +334,7 @@ input[type=range]::-webkit-slider-thumb{
 #contacto h1{
 	text-align:center;
 	color: #555;
-	padding-bottom:10px;	
+	padding-bottom:5px;	
 }
 
 #contacto h1::after{		/*carga el contenido y luego el estilo*/
@@ -341,7 +343,7 @@ input[type=range]::-webkit-slider-thumb{
 	display:block;
 	height:3px;
 	width:200px;
-	margin:20px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
+	margin:10px auto 5px;   /*top 20px bottom 5 px y right y left  se adaptan con 'auto' a las medidas*/
 }
 
 .mensaje{
